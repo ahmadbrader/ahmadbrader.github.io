@@ -14,7 +14,6 @@
         <div class="row justify-content-md-center">
             <div class="col col-lg-6">
                 <form method="post" action="/instagram/generate">
-                @csrf
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">URL Photo / Video Instagram</label>
                         <input type="text" class="form-control" name="url" aria-describedby="emailHelp" id="url">
